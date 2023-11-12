@@ -19,7 +19,7 @@ class Battery(ABC):
 
 class SpindlerBattery(Battery):
 	def __init__(self, current_date, last_service_date):
-		self.years = 2
+		self.years = 3
 		super(SpindlerBattery, self).__init__(current_date, last_service_date)
 
 	def battery_should_be_serviced(self):
